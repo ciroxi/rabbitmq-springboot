@@ -1,6 +1,5 @@
 package com.example.mq.controller;
 
-import com.example.mq.model.MyModel;
 import com.example.mq.produce.QueueAProduce;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
