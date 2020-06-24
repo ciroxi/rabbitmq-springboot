@@ -24,6 +24,7 @@ public class UserController {
     QueueAProduce queueAProduce;
     @RequestMapping(value = "user")
     public void userAdd(){
+        System.out.println("测试代码");
         queueAProduce.sendMsg(sdf.format(new Date()));
     }
 
